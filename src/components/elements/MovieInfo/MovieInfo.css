@@ -1,0 +1,37 @@
+.rmdb-score {
+  position: absolute;
+  margin: 0;
+  right: 0px;
+  top: -3px;
+}
+
+.rmdb-director {
+  margin: 0;
+}
+
+.fa-film {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+}
+
+meter::-webkit-meter-bar {
+  background: #FFF;
+  width: 200px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: -webkit-gradient(linear, left top, left bottom, from(#16d47b));
+  background: linear-gradient(to bottom, #16d47b);
+}
+
+meter::-webkit-meter-suboptimum-value {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbb450));
+  background: linear-gradient(to bottom, #fbb450);
+}
+
+meter::-webkit-meter-even-less-good-value {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b));
+  background: linear-gradient(to bottom, #ee5f5b);
+}
